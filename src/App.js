@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import VideoForm from './components/videoForm';
+import VideoPlayer from './components/videoPlayer';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [videoUrl, setVideoUrl,] = useState('');
+
+    const handleFormSubmit = (url) => {
+        setVideoUrl(url);
+    };
+
+    return (
+        <div>
+            <h1>All In One Player</h1>
+            <p>Test your MP4, Youtube, SoundCloud, Facebook, Vimeo, Mux, Twitch,
+                Streamable, Wistia, DailyMotion, <br></br> Mixcloud, Vidyard,
+                Kaltura, M3U8 & MPD urls with our faster player ⚡</p>
+            <VideoForm onFormSubmit={handleFormSubmit} />
+            {videoUrl && <VideoPlayer videoUrl={videoUrl} />}
+        </div>
+    );
 }
 
 export default App;
