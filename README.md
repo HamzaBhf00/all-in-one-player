@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# All In One Player
+Test your MP4, M3U8, Youtube, SoundCloud, Facebook, MPD & more urls with our faster player ⚡
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![videoplayer](https://github.com/HamzaBhf00/all-in-one-player/assets/93322506/cd8166da-1ea9-422d-bc1d-e5473001904e)
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Video Playback from Provided URLs:** The application allows users to play videos from provided URLs, making it easy to view content from various sources.
 
-### `npm start`
+- **Support for Multiple Video Formats:**
+  - **YouTube:** Plays videos from YouTube directly within the application (No YouTube ads included).
+  - **MP4:** Supports videos in MP4 format, a common and widely used format for web videos (Download button available).
+  - **DASH (MPD):** Provides support for playing videos using the DASH standard for adaptive and efficient streaming.
+  - **HLS (M3U8):** Enables video playback using the HLS standard for real-time and adaptive streaming & More...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💡 Additionally, you can test your IPTV content with our player. Check out how to create your own IPTV using M3U8 tags at [All M3U Tags For IPTV Playlist](https://github.com/HamzaBhf00/m3u-tags-iptv)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo Website
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- https://all-in-one-player.netlify.app/
