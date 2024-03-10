@@ -16,9 +16,10 @@ function App() {
             <p>Test your MP4, Youtube, SoundCloud, Facebook, Vimeo, Mux, Twitch,
                 Streamable, Wistia, DailyMotion, <br></br> Mixcloud, Vidyard,
                 Kaltura, M3U8 & MPD urls with our faster player ⚡</p>
+            <textarea style={{ width: '50%', backgroundColor: 'powderblue' }}>Your Note...</textarea>
             <VideoForm onFormSubmit={handleFormSubmit} />
             {videoUrl && <VideoPlayer videoUrl={videoUrl} />}
-        </div>
+        </div >
     );
 }
 
